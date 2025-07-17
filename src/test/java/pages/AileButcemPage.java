@@ -101,6 +101,7 @@ public class AileButcemPage {
         Assert.assertTrue(ageTextBox.getText().equals(ConfigReader.getProperty(yas)));
         Assert.assertTrue(professionTextBox.getText().equals(ConfigReader.getProperty(meslek)));
         Assert.assertTrue(genderDropDown.getText().equals("Kadın"));
+
     }
 
 

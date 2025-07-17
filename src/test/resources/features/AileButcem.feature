@@ -12,6 +12,7 @@ Feature: Kullanici Aile Butcem uygulamasini test eder
   When Hesabim sayfasindaki bilgileri degistirerek "isim" "soyisim" "sehir" "yas" "meslek" ve cinsiyet "Kadın" degisikleri kaydedin ve değişikleri dogrulayin
   And  Uygulamayi kapatir
 
+
   @aile
   Scenario: Kullanici Ayarlar bolumunde gorevleri yerine getirir
     Given Sol kisimdaki menuden "Ayarlar" bolumune gidin
